@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shristi Khanna - UI/UX Design Portfolio</title>
     <script>
-      // Prevent flash of light mode by setting dark mode immediately
+      // Apply user's saved theme or system preference without forcing dark by default
       (function() {
-        const theme = localStorage.getItem('theme') || 'dark';
-        if (theme === 'dark') {
+        const saved = localStorage.getItem('theme');
+        if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
           document.documentElement.classList.add('dark');
         }
       })();
