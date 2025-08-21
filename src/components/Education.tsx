@@ -8,32 +8,32 @@ const Education = () => {
         <h2 className="text-4xl sm:text-5xl font-bold mb-6 bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
           Education
         </h2>
-        <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+        <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
           My academic foundation in computer science and engineering, with specialized focus 
           on cloud computing, machine learning, and design thinking.
         </p>
       </div>
 
       <div className="max-w-4xl mx-auto">
-        <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 overflow-hidden">
+        <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 overflow-hidden border border-gray-100 dark:border-gray-700">
           <div className="h-2 bg-gradient-to-r from-purple-500 to-blue-500"></div>
           
           <div className="p-8">
             <div className="flex items-start gap-6 mb-6">
-              <div className="bg-purple-100 p-4 rounded-xl">
-                <GraduationCap size={32} className="text-purple-600" />
+              <div className="bg-purple-100 dark:bg-purple-900/50 p-4 rounded-xl">
+                <GraduationCap size={32} className="text-purple-600 dark:text-purple-400" />
               </div>
               
               <div className="flex-1">
                 <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start mb-4">
                   <div>
-                    <h3 className="text-2xl font-bold text-gray-800 mb-2">
+                    <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-2">
                       Bachelor of Technology (B.Tech)
                     </h3>
-                    <p className="text-xl text-purple-600 font-semibold mb-1">
+                    <p className="text-xl text-purple-600 dark:text-purple-400 font-semibold mb-1">
                       Computer Science & Engineering
                     </p>
-                    <p className="text-lg text-gray-600">
+                    <p className="text-lg text-gray-600 dark:text-gray-300">
                       Specialization: Cloud Computing & Machine Learning
                     </p>
                     <p className="text-lg text-gray-600 dark:text-gray-300 mt-1">
@@ -42,7 +42,7 @@ const Education = () => {
                   </div>
                   
                   <div className="mt-4 lg:mt-0 lg:text-right">
-                    <div className="flex flex-col lg:items-end text-gray-600 space-y-1">
+                    <div className="flex flex-col lg:items-end text-gray-600 dark:text-gray-300 space-y-1">
                       <div className="flex items-center gap-2">
                         <Calendar size={16} />
                         <span className="font-medium">2023 - 2026 (Expected)</span>
@@ -60,47 +60,47 @@ const Education = () => {
             {/* Academic Highlights */}
             <div className="grid lg:grid-cols-2 gap-8 mb-8">
               <div>
-                <h4 className="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
-                  <BookOpen size={20} className="text-purple-600" />
+                <h4 className="text-xl font-bold text-gray-800 dark:text-white mb-4 flex items-center gap-2">
+                  <BookOpen size={20} className="text-purple-600 dark:text-purple-400" />
                   Key Coursework
                 </h4>
                 <div className="space-y-3">
                   <div className="flex justify-between items-center p-3 bg-purple-50 dark:bg-purple-900/30 rounded-lg">
-                    <span className="font-medium text-gray-700">Data Structures & Algorithms</span>
-                    <span className="text-purple-600 font-semibold">A</span>
+                    <span className="font-medium text-gray-700 dark:text-gray-200">Data Structures & Algorithms</span>
+                    <span className="text-purple-600 dark:text-purple-400 font-semibold">A</span>
                   </div>
                   <div className="flex justify-between items-center p-3 bg-blue-50 dark:bg-blue-900/30 rounded-lg">
-                    <span className="font-medium text-gray-700 dark:text-gray-300">Cloud Computing & Security</span>
+                    <span className="font-medium text-gray-700 dark:text-gray-200">Cloud Computing & Security</span>
                     <span className="text-blue-600 dark:text-blue-400 font-semibold">A</span>
                   </div>
                   <div className="flex justify-between items-center p-3 bg-green-50 dark:bg-green-900/30 rounded-lg">
-                    <span className="font-medium text-gray-700 dark:text-gray-300">Machine Learning & Artificial Intelligence</span>
+                    <span className="font-medium text-gray-700 dark:text-gray-200">Machine Learning & Artificial Intelligence</span>
                     <span className="text-green-600 dark:text-green-400 font-semibold">A</span>
                   </div>
                   <div className="flex justify-between items-center p-3 bg-pink-50 dark:bg-pink-900/30 rounded-lg">
-                    <span className="font-medium text-gray-700 dark:text-gray-300">Web & App Development</span>
+                    <span className="font-medium text-gray-700 dark:text-gray-200">Web & App Development</span>
                     <span className="text-pink-600 dark:text-pink-400 font-semibold">A+</span>
                   </div>
                 </div>
               </div>
 
               <div>
-                <h4 className="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
-                  <Award size={20} className="text-purple-600" />
+                <h4 className="text-xl font-bold text-gray-800 dark:text-white mb-4 flex items-center gap-2">
+                  <Award size={20} className="text-purple-600 dark:text-purple-400" />
                   Academic & Leadership Achievements
                 </h4>
                 <div className="space-y-4">
-                  <div className="p-4 bg-gradient-to-r from-purple-50 to-blue-50 dark:from-purple-900/30 dark:to-blue-900/30 rounded-lg border-l-4 border-purple-400">
+                  <div className="p-4 bg-gradient-to-r from-purple-50 to-blue-50 dark:from-purple-900/30 dark:to-blue-900/30 rounded-lg border-l-4 border-purple-400 dark:border-purple-500">
                     <h5 className="font-semibold text-gray-800 dark:text-white mb-1">Management Head</h5>
                     <p className="text-gray-600 dark:text-gray-300 text-sm">BBDU Entrepreneurship & Incubation Center (BBDEIC) - Led event planning, team coordination, and cross-functional collaboration</p>
                   </div>
                   
-                  <div className="p-4 bg-gradient-to-r from-blue-50 to-green-50 dark:from-blue-900/30 dark:to-green-900/30 rounded-lg border-l-4 border-blue-400">
+                  <div className="p-4 bg-gradient-to-r from-blue-50 to-green-50 dark:from-blue-900/30 dark:to-green-900/30 rounded-lg border-l-4 border-blue-400 dark:border-blue-500">
                     <h5 className="font-semibold text-gray-800 dark:text-white mb-1">Technical Team Member</h5>
                     <p className="text-gray-600 dark:text-gray-300 text-sm">BBDU Community - Handled design, technical setup, and digital engagement for events</p>
                   </div>
                   
-                  <div className="p-4 bg-gradient-to-r from-green-50 to-pink-50 dark:from-green-900/30 dark:to-pink-900/30 rounded-lg border-l-4 border-green-400">
+                  <div className="p-4 bg-gradient-to-r from-green-50 to-pink-50 dark:from-green-900/30 dark:to-pink-900/30 rounded-lg border-l-4 border-green-400 dark:border-green-500">
                     <h5 className="font-semibold text-gray-800 dark:text-white mb-1">Research Paper</h5>
                     <p className="text-gray-600 dark:text-gray-300 text-sm mb-2">
                       <strong>"Quantum Cryptography: Securing Data in the Era of Quantum Computing"</strong>
@@ -124,14 +124,14 @@ const Education = () => {
             <div className="mb-8">
               <h4 className="text-xl font-bold text-gray-800 dark:text-white mb-6">Skills Developed Through Education</h4>
               <div className="grid sm:grid-cols-2 gap-6">
-                <div className="bg-gray-50 dark:bg-gray-700 p-6 rounded-xl hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors">
+                <div className="bg-gray-50 dark:bg-gray-700 p-6 rounded-xl hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors border border-gray-200 dark:border-gray-600">
                   <h5 className="font-bold text-gray-800 dark:text-white mb-2">Technical Skills</h5>
                   <p className="text-gray-600 dark:text-gray-300 text-sm mb-3">
                     Figma, Adobe XD, Miro, HTML, CSS, JavaScript, usability principles, accessibility, typography, cloud deployment, encryption, ML basics, problem-solving with DSA.
                   </p>
                 </div>
                 
-                <div className="bg-gray-50 dark:bg-gray-700 p-6 rounded-xl hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors">
+                <div className="bg-gray-50 dark:bg-gray-700 p-6 rounded-xl hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors border border-gray-200 dark:border-gray-600">
                   <h5 className="font-bold text-gray-800 dark:text-white mb-2">Soft Skills</h5>
                   <p className="text-gray-600 dark:text-gray-300 text-sm mb-3">
                     Leadership, team collaboration, research writing, adaptability, public speaking, user-centered thinking.
@@ -141,7 +141,7 @@ const Education = () => {
             </div>
 
             {/* University Highlights */}
-            <div className="bg-gradient-to-br from-purple-50 to-blue-50 dark:from-purple-900/30 dark:to-blue-900/30 p-6 rounded-xl">
+            <div className="bg-gradient-to-br from-purple-50 to-blue-50 dark:from-purple-900/30 dark:to-blue-900/30 p-6 rounded-xl border border-purple-200 dark:border-purple-700">
               <h4 className="text-xl font-bold text-gray-800 dark:text-white mb-4">University Highlights</h4>
               <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 <div className="text-center">
